@@ -17,7 +17,9 @@ if __name__ == "__main__":
     logging.debug(">>> Ejecutando función __main__")
 
     # Es ideal que aquí se ejecuten las pruebas
-    workshops = unreleased()
-    print(workshops)
+    # workshops = unreleased()
+    # print(workshops)
+    print(unreleased.__doc__)
+    print(__name__)
 
     logging.debug(">>> Finalizando función __main__")
