@@ -1,3 +1,7 @@
-from mi_primer_paquete_cf import unreleased
+from codigofacilito_vc import unreleased
 
-print("El valor de main para main es : ", __name__)
+
+if __name__ == "__main__":
+    print("El valor de main para main es : ", __name__)
+    workshops = unreleased()
+    print(workshops)

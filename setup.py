@@ -4,16 +4,20 @@ from setuptools import setup
 this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'Este paquete permite consumir el API de CodigoFacilito'
-PACKAGE_NAME = 'mi_primer_paquete_cf'
+PACKAGE_NAME = 'codigofacilito_vc'
 AUTHOR = 'Victor Joseph Conti Romero'
 EMAIL = 'victor.conti.dev@gmail.com'
-GITHUB_URL = 'https://github.com/VictorContiDesign/python_package/tree/master'
+GITHUB_URL = 'https://github.com/VictorContiDesign/codigofacilito_package.git'
 
 setup(
     name = PACKAGE_NAME,
-    packages = [DESCRIPTION],
+    packages = [PACKAGE_NAME],
+    entry_points={
+        "console_scripts":
+            ["pycody=codigofacilito_vc.__main__:main"]
+    },
     version = VERSION,
     license='MIT',
     description = DESCRIPTION,
