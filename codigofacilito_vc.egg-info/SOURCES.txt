@@ -7,6 +7,7 @@ codigofacilito_vc/workshops.py
 codigofacilito_vc.egg-info/PKG-INFO
 codigofacilito_vc.egg-info/SOURCES.txt
 codigofacilito_vc.egg-info/dependency_links.txt
+codigofacilito_vc.egg-info/entry_points.txt
 codigofacilito_vc.egg-info/requires.txt
 codigofacilito_vc.egg-info/top_level.txt
 test/tests.py
